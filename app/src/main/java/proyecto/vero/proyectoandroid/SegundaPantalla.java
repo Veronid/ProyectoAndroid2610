@@ -2,36 +2,29 @@ package proyecto.vero.proyectoandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+public class SegundaPantalla extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity {
-        Button VerProductos;
-
-    @SuppressLint("MissingInflatedId")
+    Button HelT;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        VerProductos = findViewById(R.id.btnMostrarP);
+        setContentView(R.layout.activity_segunda_pantalla);
+        HelT = findViewById(R.id.btnHT);
 
-        VerProductos.setOnClickListener(new View.OnClickListener() {
-
+        HelT.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View view) {
                 Intent intent = new Intent(
                         getApplicationContext(),
-                        SegundaPantalla.class);
+                        HeladoT.class
+                );
                 startActivity(intent);
-
-        }
-    });
+            }
+        });
+    }
 }
-}
-
-
-
