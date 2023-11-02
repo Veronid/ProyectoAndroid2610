@@ -4,8 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dise_o_sin_t_tulo"
+    android:background="@color/white"
+    android:backgroundTint="#F8ECF0"
     tools:context=".HeladoT">
+
+    <CheckBox
+        android:id="@+id/cdoblet"
+        android:layout_width="31dp"
+        android:layout_height="26dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
+
+    <CheckBox
+        android:id="@+id/csimplet"
+        android:layout_width="32dp"
+        android:layout_height="28dp"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doble: $3.500"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple: $2.500"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
 
     <TextView
         android:id="@+id/textView3"
@@ -16,14 +67,16 @@
         android:textColorHighlight="#000000"
         android:textColorHint="#000000"
         android:textColorLink="#000000"
-        android:textSize="34sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintVertical_bias="0.114" />
 
     <LinearLayout
+        android:id="@+id/linearLayout6"
         android:layout_width="416dp"
         android:layout_height="60dp"
         android:background="#F65F7D"
@@ -36,35 +89,282 @@
         app:layout_constraintVertical_bias="0.0">
 
         <SearchView
-            android:layout_width="match_parent"
+            android:layout_width="404dp"
             android:layout_height="match_parent" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="489dp"
+        android:layout_width="416dp"
+        android:layout_height="424dp"
+        android:background="#F8CCCC"
+        android:backgroundTint="#FFE5E5"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785">
+        app:layout_constraintVertical_bias="0.674">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Helado Platano Manjar"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/cplam"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp"
+            android:backgroundTint="#E91E63" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Helado Platano"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/cplatano"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp"
+            android:backgroundTint="#E91E63" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Helado Blue Ice"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/cblue"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp"
+            android:backgroundTint="#E91E63" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Helado Chirimoya Alegre"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/calegre"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp"
+            android:backgroundTint="#E91E63" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Helado Coco"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/ccoco"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp"
+            android:backgroundTint="#E91E63" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Helado Lucuma"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/clucuma"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp"
+            android:backgroundTint="#E91E63" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Helado Pistacho"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/cpistacho"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp"
+            android:backgroundTint="#E91E63" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Helado Arandano"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/carandano"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp"
+            android:backgroundTint="#E91E63" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Helado Frutilla"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/cfrutilla"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp"
+            android:backgroundTint="#E91E63" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:layout_marginLeft="18dp"
+            android:text="Helado Chocolate"
+            android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="30dp"
+            android:id="@+id/cchocolate"
+            android:layout_width="match_parent"
             android:layout_height="22dp"
-            android:layout_marginLeft="160dp"
-            android:layout_marginTop="-15dp"
-            />
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp"
+            android:backgroundTint="#E91E63" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#020202"
+            android:backgroundTint="#000000" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Helado Vainilla"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/cvainilla"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-23dp" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAtrasHT"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#F60062"
+        android:text="Atras"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para Llevar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Domicilio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
