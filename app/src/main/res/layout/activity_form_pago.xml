@@ -9,17 +9,30 @@
     tools:context=".FormPago">
 
     <Button
-        android:id="@+id/buttonEnviarpago"
-        android:layout_width="125dp"
-        android:layout_height="50dp"
+        android:id="@+id/buttonEnviarpago2"
+        android:layout_width="145dp"
+        android:layout_height="49dp"
         android:backgroundTint="#F60062"
-        android:text="Enviar"
+        android:text="Enviar Pedido"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintHorizontal_bias="0.939"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
+        app:layout_constraintVertical_bias="0.935" />
+
+    <Button
+        android:id="@+id/buttonEnviarpago"
+        android:layout_width="126dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#F60062"
+        android:text="Ver delivery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
 
     <LinearLayout
         android:layout_width="416dp"
@@ -37,129 +50,6 @@
             android:layout_width="404dp"
             android:layout_height="match_parent" />
     </LinearLayout>
-
-    <EditText
-        android:id="@+id/txtNombreC"
-        android:layout_width="217dp"
-        android:layout_height="51dp"
-        android:ems="10"
-        android:hint="Nombre"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.226"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
-
-    <EditText
-        android:id="@+id/txtApellidoC"
-        android:layout_width="218dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:hint="Apellido"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.341" />
-
-    <EditText
-        android:id="@+id/txtRutC"
-        android:layout_width="220dp"
-        android:layout_height="44dp"
-        android:ems="10"
-        android:hint="Rut"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.23"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.433" />
-
-    <EditText
-        android:id="@+id/txtPC"
-        android:layout_width="219dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:hint="Poblacion"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.527" />
-
-    <EditText
-        android:id="@+id/txtPasajeC"
-        android:layout_width="219dp"
-        android:layout_height="45dp"
-        android:ems="10"
-        android:hint="Pasaje"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.623" />
-
-    <EditText
-        android:id="@+id/txtCalle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Calle"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721" />
-
-    <EditText
-        android:id="@+id/txtCasa"
-        android:layout_width="110dp"
-        android:layout_height="47dp"
-        android:ems="10"
-        android:hint="Casa"
-        android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.893"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.72" />
-
-    <TextView
-        android:id="@+id/textView31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ingrese sus Datos para el Envio"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="127dp"
-        android:layout_height="98dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.992"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.115"
-        app:srcCompat="@drawable/descarga_removebg_preview" />
 
     <Button
         android:id="@+id/buttonAtraspago"
@@ -181,7 +71,7 @@
         android:text="Efectivo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.82" />
@@ -193,9 +83,118 @@
         android:text="Tarjeta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintHorizontal_bias="0.416"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.818" />
+        app:layout_constraintVertical_bias="0.82" />
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="486dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Ingrese sus Datos para el Envio"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="127dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-40dp"
+            app:srcCompat="@drawable/descarga_removebg_preview" />
+
+        <EditText
+            android:id="@+id/txtNombreC"
+            android:layout_width="217dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:layout_marginTop="0dp"
+            android:hint="Nombre"
+            android:inputType="text" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <EditText
+            android:id="@+id/txtApellidoC"
+            android:layout_width="218dp"
+            android:layout_height="49dp"
+            android:ems="10"
+            android:layout_marginTop="0dp"
+            android:hint="Apellido"
+            android:inputType="text" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="11dp" />
+
+        <EditText
+            android:id="@+id/txtRutC"
+            android:layout_width="220dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:hint="Rut"
+            android:inputType="text" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/txtPC"
+            android:layout_width="219dp"
+            android:layout_height="49dp"
+            android:ems="10"
+            android:hint="Poblacion"
+            android:inputType="text" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/txtPasajeC"
+            android:layout_width="219dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Pasaje"
+            android:inputType="text" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/txtCalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Calle"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/txtCasa"
+            android:layout_width="110dp"
+            android:layout_height="47dp"
+            android:ems="10"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-45dp"
+            android:hint="Casa"
+            android:inputType="number" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
