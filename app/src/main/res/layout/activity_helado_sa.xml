@@ -8,32 +8,33 @@
     tools:context=".HeladoSA">
 
 
-    <RadioButton
-        android:id="@+id/radioButton6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="A Domicilio"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.163"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
-
-    <RadioButton
-        android:id="@+id/radioButton5"
+    <CheckBox
+        android:id="@+id/cparallevar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Para Llevar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.196" />
 
     <CheckBox
-        android:id="@+id/checkBox18"
+        android:id="@+id/cDelivery2"
+        android:layout_width="110dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="260dp"
+        android:text="Delivery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <CheckBox
+        android:id="@+id/doblec"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,7 +45,7 @@
         app:layout_constraintVertical_bias="0.961" />
 
     <CheckBox
-        android:id="@+id/checkBox17"
+        android:id="@+id/simplec"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -102,7 +103,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/cplam"
+            android:id="@+id/c2"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"
@@ -122,7 +123,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/cplatano"
+            android:id="@+id/c3"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"
@@ -142,7 +143,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/cblue"
+            android:id="@+id/c4"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"
@@ -162,7 +163,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/calegre"
+            android:id="@+id/c5"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"
@@ -182,7 +183,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/ccoco"
+            android:id="@+id/c6"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"
@@ -202,7 +203,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/clucuma"
+            android:id="@+id/c7"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"
@@ -222,7 +223,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/cpistacho"
+            android:id="@+id/c8"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"
@@ -242,7 +243,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/carandano"
+            android:id="@+id/c9"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"
@@ -262,7 +263,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/cfrutilla"
+            android:id="@+id/c10"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"
@@ -282,7 +283,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/cchocolate"
+            android:id="@+id/c11"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"
@@ -308,7 +309,7 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/cvainilla"
+            android:id="@+id/c12"
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:layout_marginLeft="190dp"

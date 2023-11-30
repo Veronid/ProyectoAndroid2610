@@ -1,32 +1,23 @@
 package proyecto.vero.proyectoandroid;
 
-import static android.view.Gravity.*;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 public class FormPago extends AppCompatActivity {
 
     Button AtrasPago;
 
     Button EnviarPago;
-    Button EnviarPago2;
+    Button Verdelivery;
 
     TextView Nombre;
     TextView Apellido;
@@ -47,8 +38,8 @@ public class FormPago extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_pago);
         AtrasPago = findViewById(R.id.buttonAtraspago);
-        EnviarPago = findViewById(R.id.buttonEnviarpago);
-        EnviarPago2 = findViewById(R.id.buttonEnviarpago2);
+        EnviarPago = findViewById(R.id.VerDelivery);
+        Verdelivery = findViewById(R.id.Enviarpago);
 
         Nombre = findViewById(R.id.txtNombreC);
         Apellido = findViewById(R.id.txtApellidoC);
@@ -81,7 +72,7 @@ public class FormPago extends AppCompatActivity {
         else{
 
         }
-        EnviarPago2.setOnClickListener(new View.OnClickListener() {
+        Verdelivery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 databaseReference.child("Nombre").setValue(Nombre.getText().toString());
@@ -98,19 +89,16 @@ public class FormPago extends AppCompatActivity {
 
 
         EnviarPago.setOnClickListener(new View.OnClickListener() {
-            Context context = getApplicationContext();
-            CharSequence text = "¡Su pedido a sido recibido!";
-            int duration = Toast.LENGTH_LONG;
-            Toast toast = Toast.makeText(context,text,duration);
-            toast.setGravity(Gravity.BOTTOM|Gravity.CENTER,80,300);
-            toast.show();
+
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(
                         getApplicationContext(),
                         InDelivery.class
+
                 );
                 startActivity(intent);
+
             }
         });
 
