@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "427810768326",
+    "firebase_url": "https://proyecto-mundo-gelato-default-rtdb.firebaseio.com",
+    "project_id": "proyecto-mundo-gelato",
+    "storage_bucket": "proyecto-mundo-gelato.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427810768326:android:4cf84fcd68fa17fe8cdec7",
+        "android_client_info": {
+          "package_name": "proyecto.vero.proyectoandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdXV7OmSMCR3aDKMJLNUOi7IvTVGf_pqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
