@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,10 +16,8 @@ import com.google.firebase.database.FirebaseDatabase;
 public class FormPago extends AppCompatActivity {
 
     Button AtrasPago;
-
     Button EnviarPago;
     Button Verdelivery;
-
     TextView Nombre;
     TextView Apellido;
     TextView Rut;
@@ -27,11 +26,7 @@ public class FormPago extends AppCompatActivity {
     TextView Calle;
     TextView Casa;
     FirebaseDatabase firebaseDatabase;
-
     DatabaseReference databaseReference;
-
-
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,12 +77,18 @@ public class FormPago extends AppCompatActivity {
                 databaseReference.child("Pasaje").setValue(Pasaje.getText().toString());
                 databaseReference.child("Calle").setValue(Calle.getText().toString());
                 databaseReference.child("Casa").setValue(Casa.getText().toString());
+                Toast.makeText(getApplicationContext(),"Pedido Enviado Con éxito",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Vea el estado de su delivery",Toast.LENGTH_LONG).show();
 
 
             }
         });
 
-
+        EnviarPago.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            }
+        });
         EnviarPago.setOnClickListener(new View.OnClickListener() {
 
             @Override
