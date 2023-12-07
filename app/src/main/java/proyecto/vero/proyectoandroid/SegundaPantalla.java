@@ -1,11 +1,11 @@
 package proyecto.vero.proyectoandroid;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SegundaPantalla extends AppCompatActivity {
 
@@ -25,6 +25,8 @@ public class SegundaPantalla extends AppCompatActivity {
         HeEs = findViewById(R.id.btnHE);
         HeVeg = findViewById(R.id.btnHV);
         Pagar = findViewById(R.id.btnIrPagar);
+
+
 
         HelT.setOnClickListener(new View.OnClickListener() {
             @Override

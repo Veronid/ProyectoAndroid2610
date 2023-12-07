@@ -35,7 +35,6 @@ public class FormPago extends AppCompatActivity {
         AtrasPago = findViewById(R.id.buttonAtraspago);
         EnviarPago = findViewById(R.id.VerDelivery);
         Verdelivery = findViewById(R.id.Enviarpago);
-
         Nombre = findViewById(R.id.txtNombreC);
         Apellido = findViewById(R.id.txtApellidoC);
         Rut = findViewById(R.id.txtRutC);
@@ -84,11 +83,6 @@ public class FormPago extends AppCompatActivity {
             }
         });
 
-        EnviarPago.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-            }
-        });
         EnviarPago.setOnClickListener(new View.OnClickListener() {
 
             @Override

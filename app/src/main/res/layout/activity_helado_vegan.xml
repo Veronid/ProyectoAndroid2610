@@ -42,6 +42,7 @@
         android:textColorHint="#000000"
         android:textColorLink="#000000"
         android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
@@ -100,7 +101,7 @@
         app:layout_constraintVertical_bias="0.635">
 
         <TextView
-            android:id="@+id/textView18"
+            android:id="@+id/txtHeM"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="18dp"
@@ -120,7 +121,7 @@
             android:layout_height="11dp" />
 
         <TextView
-            android:id="@+id/textView17"
+            android:id="@+id/txtPlatano"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="18dp"

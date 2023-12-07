@@ -55,248 +55,252 @@ public class HeladoSA extends AppCompatActivity {
             }
         });
 
+    simplec.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            c2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    boolean isHeladoSimple = ((CheckBox) v).isChecked();
 
-        c2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean isHeladoSimple = ((CheckBox) v).isChecked();
-
-                if (isHeladoSimple) {
-                    c2.setVisibility(View.VISIBLE);
                     if (isHeladoSimple) {
-                        c1.setVisibility(View.GONE);
-                        c3.setVisibility(View.GONE);
-                        c4.setVisibility(View.GONE);
-                        c5.setVisibility(View.GONE);
-                        c6.setVisibility(View.GONE);
-                        c7.setVisibility(View.GONE);
-                        c8.setVisibility(View.GONE);
-                        c9.setVisibility(View.GONE);
-                        c10.setVisibility(View.GONE);
-                        c11.setVisibility(View.GONE);
+                        c2.setVisibility(View.VISIBLE);
+                        if (isHeladoSimple) {
+                            c1.setVisibility(View.GONE);
+                            c3.setVisibility(View.GONE);
+                            c4.setVisibility(View.GONE);
+                            c5.setVisibility(View.GONE);
+                            c6.setVisibility(View.GONE);
+                            c7.setVisibility(View.GONE);
+                            c8.setVisibility(View.GONE);
+                            c9.setVisibility(View.GONE);
+                            c10.setVisibility(View.GONE);
+                            c11.setVisibility(View.GONE);
+
+                        }
 
                     }
-
                 }
-            }
-        });
-        c3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean isHeladoSimple = ((CheckBox) v).isChecked();
+            });
+            c3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    boolean isHeladoSimple = ((CheckBox) v).isChecked();
 
-                if (isHeladoSimple) {
-                    c3.setVisibility(View.VISIBLE);
                     if (isHeladoSimple) {
-                        c1.setVisibility(View.GONE);
-                        c2.setVisibility(View.GONE);
-                        c4.setVisibility(View.GONE);
-                        c5.setVisibility(View.GONE);
-                        c6.setVisibility(View.GONE);
-                        c7.setVisibility(View.GONE);
-                        c8.setVisibility(View.GONE);
-                        c9.setVisibility(View.GONE);
-                        c10.setVisibility(View.GONE);
-                        c11.setVisibility(View.GONE);
+                        c3.setVisibility(View.VISIBLE);
+                        if (isHeladoSimple) {
+                            c1.setVisibility(View.GONE);
+                            c2.setVisibility(View.GONE);
+                            c4.setVisibility(View.GONE);
+                            c5.setVisibility(View.GONE);
+                            c6.setVisibility(View.GONE);
+                            c7.setVisibility(View.GONE);
+                            c8.setVisibility(View.GONE);
+                            c9.setVisibility(View.GONE);
+                            c10.setVisibility(View.GONE);
+                            c11.setVisibility(View.GONE);
+
+                        }
 
                     }
-
                 }
-            }
-        });
-        c4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean isHeladoSimple = ((CheckBox) v).isChecked();
+            });
+            c4.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    boolean isHeladoSimple = ((CheckBox) v).isChecked();
 
-                if (isHeladoSimple) {
-                    c4.setVisibility(View.VISIBLE);
                     if (isHeladoSimple) {
-                        c1.setVisibility(View.GONE);
-                        c2.setVisibility(View.GONE);
-                        c3.setVisibility(View.GONE);
-                        c5.setVisibility(View.GONE);
-                        c6.setVisibility(View.GONE);
-                        c7.setVisibility(View.GONE);
-                        c8.setVisibility(View.GONE);
-                        c9.setVisibility(View.GONE);
-                        c10.setVisibility(View.GONE);
-                        c11.setVisibility(View.GONE);
+                        c4.setVisibility(View.VISIBLE);
+                        if (isHeladoSimple) {
+                            c1.setVisibility(View.GONE);
+                            c2.setVisibility(View.GONE);
+                            c3.setVisibility(View.GONE);
+                            c5.setVisibility(View.GONE);
+                            c6.setVisibility(View.GONE);
+                            c7.setVisibility(View.GONE);
+                            c8.setVisibility(View.GONE);
+                            c9.setVisibility(View.GONE);
+                            c10.setVisibility(View.GONE);
+                            c11.setVisibility(View.GONE);
+
+                        }
 
                     }
-
                 }
-            }
-        });
-        c5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean isHeladoSimple = ((CheckBox) v).isChecked();
+            });
+            c5.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    boolean isHeladoSimple = ((CheckBox) v).isChecked();
 
-                if (isHeladoSimple) {
-                    c5.setVisibility(View.VISIBLE);
                     if (isHeladoSimple) {
-                        c1.setVisibility(View.GONE);
-                        c2.setVisibility(View.GONE);
-                        c3.setVisibility(View.GONE);
-                        c4.setVisibility(View.GONE);
-                        c6.setVisibility(View.GONE);
-                        c7.setVisibility(View.GONE);
-                        c8.setVisibility(View.GONE);
-                        c9.setVisibility(View.GONE);
-                        c10.setVisibility(View.GONE);
-                        c11.setVisibility(View.GONE);
+                        c5.setVisibility(View.VISIBLE);
+                        if (isHeladoSimple) {
+                            c1.setVisibility(View.GONE);
+                            c2.setVisibility(View.GONE);
+                            c3.setVisibility(View.GONE);
+                            c4.setVisibility(View.GONE);
+                            c6.setVisibility(View.GONE);
+                            c7.setVisibility(View.GONE);
+                            c8.setVisibility(View.GONE);
+                            c9.setVisibility(View.GONE);
+                            c10.setVisibility(View.GONE);
+                            c11.setVisibility(View.GONE);
+
+                        }
 
                     }
-
                 }
-            }
-        });
-        c6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean isHeladoSimple = ((CheckBox) v).isChecked();
+            });
+            c6.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    boolean isHeladoSimple = ((CheckBox) v).isChecked();
 
-                if (isHeladoSimple) {
-                    c6.setVisibility(View.VISIBLE);
                     if (isHeladoSimple) {
-                        c1.setVisibility(View.GONE);
-                        c2.setVisibility(View.GONE);
-                        c3.setVisibility(View.GONE);
-                        c4.setVisibility(View.GONE);
-                        c5.setVisibility(View.GONE);
-                        c7.setVisibility(View.GONE);
-                        c8.setVisibility(View.GONE);
-                        c9.setVisibility(View.GONE);
-                        c10.setVisibility(View.GONE);
-                        c11.setVisibility(View.GONE);
+                        c6.setVisibility(View.VISIBLE);
+                        if (isHeladoSimple) {
+                            c1.setVisibility(View.GONE);
+                            c2.setVisibility(View.GONE);
+                            c3.setVisibility(View.GONE);
+                            c4.setVisibility(View.GONE);
+                            c5.setVisibility(View.GONE);
+                            c7.setVisibility(View.GONE);
+                            c8.setVisibility(View.GONE);
+                            c9.setVisibility(View.GONE);
+                            c10.setVisibility(View.GONE);
+                            c11.setVisibility(View.GONE);
+
+                        }
 
                     }
-
                 }
-            }
-        });
-        c7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean isHeladoSimple = ((CheckBox) v).isChecked();
+            });
+            c7.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    boolean isHeladoSimple = ((CheckBox) v).isChecked();
 
-                if (isHeladoSimple) {
-                    c7.setVisibility(View.VISIBLE);
                     if (isHeladoSimple) {
-                        c1.setVisibility(View.GONE);
-                        c2.setVisibility(View.GONE);
-                        c3.setVisibility(View.GONE);
-                        c4.setVisibility(View.GONE);
-                        c5.setVisibility(View.GONE);
-                        c6.setVisibility(View.GONE);
-                        c8.setVisibility(View.GONE);
-                        c9.setVisibility(View.GONE);
-                        c10.setVisibility(View.GONE);
-                        c11.setVisibility(View.GONE);
+                        c7.setVisibility(View.VISIBLE);
+                        if (isHeladoSimple) {
+                            c1.setVisibility(View.GONE);
+                            c2.setVisibility(View.GONE);
+                            c3.setVisibility(View.GONE);
+                            c4.setVisibility(View.GONE);
+                            c5.setVisibility(View.GONE);
+                            c6.setVisibility(View.GONE);
+                            c8.setVisibility(View.GONE);
+                            c9.setVisibility(View.GONE);
+                            c10.setVisibility(View.GONE);
+                            c11.setVisibility(View.GONE);
+
+                        }
 
                     }
-
                 }
-            }
-        });
-        c8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean isHeladoSimple = ((CheckBox) v).isChecked();
+            });
+            c8.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    boolean isHeladoSimple = ((CheckBox) v).isChecked();
 
-                if (isHeladoSimple) {
-                    c8.setVisibility(View.VISIBLE);
                     if (isHeladoSimple) {
-                        c1.setVisibility(View.GONE);
-                        c2.setVisibility(View.GONE);
-                        c3.setVisibility(View.GONE);
-                        c4.setVisibility(View.GONE);
-                        c5.setVisibility(View.GONE);
-                        c6.setVisibility(View.GONE);
-                        c7.setVisibility(View.GONE);
-                        c9.setVisibility(View.GONE);
-                        c10.setVisibility(View.GONE);
-                        c11.setVisibility(View.GONE);
+                        c8.setVisibility(View.VISIBLE);
+                        if (isHeladoSimple) {
+                            c1.setVisibility(View.GONE);
+                            c2.setVisibility(View.GONE);
+                            c3.setVisibility(View.GONE);
+                            c4.setVisibility(View.GONE);
+                            c5.setVisibility(View.GONE);
+                            c6.setVisibility(View.GONE);
+                            c7.setVisibility(View.GONE);
+                            c9.setVisibility(View.GONE);
+                            c10.setVisibility(View.GONE);
+                            c11.setVisibility(View.GONE);
+
+                        }
 
                     }
-
                 }
-            }
-        });
-        c9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean isHeladoSimple = ((CheckBox) v).isChecked();
+            });
+            c9.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    boolean isHeladoSimple = ((CheckBox) v).isChecked();
 
-                if (isHeladoSimple) {
-                    c9.setVisibility(View.VISIBLE);
                     if (isHeladoSimple) {
-                        c1.setVisibility(View.GONE);
-                        c2.setVisibility(View.GONE);
-                        c3.setVisibility(View.GONE);
-                        c4.setVisibility(View.GONE);
-                        c5.setVisibility(View.GONE);
-                        c6.setVisibility(View.GONE);
-                        c7.setVisibility(View.GONE);
-                        c8.setVisibility(View.GONE);
-                        c10.setVisibility(View.GONE);
-                        c11.setVisibility(View.GONE);
-                    }
-
-                }
-            }
-        });
-        c10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean isHeladoSimple = ((CheckBox) v).isChecked();
-
-                if (isHeladoSimple) {
-                    c10.setVisibility(View.VISIBLE);
-                    if (isHeladoSimple) {
-                        c1.setVisibility(View.GONE);
-                        c2.setVisibility(View.GONE);
-                        c3.setVisibility(View.GONE);
-                        c4.setVisibility(View.GONE);
-                        c5.setVisibility(View.GONE);
-                        c6.setVisibility(View.GONE);
-                        c7.setVisibility(View.GONE);
-                        c8.setVisibility(View.GONE);
-                        c9.setVisibility(View.GONE);
-                        c11.setVisibility(View.GONE);
+                        c9.setVisibility(View.VISIBLE);
+                        if (isHeladoSimple) {
+                            c1.setVisibility(View.GONE);
+                            c2.setVisibility(View.GONE);
+                            c3.setVisibility(View.GONE);
+                            c4.setVisibility(View.GONE);
+                            c5.setVisibility(View.GONE);
+                            c6.setVisibility(View.GONE);
+                            c7.setVisibility(View.GONE);
+                            c8.setVisibility(View.GONE);
+                            c10.setVisibility(View.GONE);
+                            c11.setVisibility(View.GONE);
+                        }
 
                     }
-
                 }
-            }
-        });
-        c11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                boolean isHeladoSimple = ((CheckBox) v).isChecked();
+            });
+            c10.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    boolean isHeladoSimple = ((CheckBox) v).isChecked();
 
-                if (isHeladoSimple) {
-                    c11.setVisibility(View.VISIBLE);
                     if (isHeladoSimple) {
-                        c1.setVisibility(View.GONE);
-                        c2.setVisibility(View.GONE);
-                        c3.setVisibility(View.GONE);
-                        c4.setVisibility(View.GONE);
-                        c5.setVisibility(View.GONE);
-                        c6.setVisibility(View.GONE);
-                        c7.setVisibility(View.GONE);
-                        c8.setVisibility(View.GONE);
-                        c9.setVisibility(View.GONE);
-                        c10.setVisibility(View.GONE);
+                        c10.setVisibility(View.VISIBLE);
+                        if (isHeladoSimple) {
+                            c1.setVisibility(View.GONE);
+                            c2.setVisibility(View.GONE);
+                            c3.setVisibility(View.GONE);
+                            c4.setVisibility(View.GONE);
+                            c5.setVisibility(View.GONE);
+                            c6.setVisibility(View.GONE);
+                            c7.setVisibility(View.GONE);
+                            c8.setVisibility(View.GONE);
+                            c9.setVisibility(View.GONE);
+                            c11.setVisibility(View.GONE);
 
+                        }
 
                     }
-
                 }
-            }
-        });
+            });
+            c11.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    boolean isHeladoSimple = ((CheckBox) v).isChecked();
 
+                    if (isHeladoSimple) {
+                        c11.setVisibility(View.VISIBLE);
+                        if (isHeladoSimple) {
+                            c1.setVisibility(View.GONE);
+                            c2.setVisibility(View.GONE);
+                            c3.setVisibility(View.GONE);
+                            c4.setVisibility(View.GONE);
+                            c5.setVisibility(View.GONE);
+                            c6.setVisibility(View.GONE);
+                            c7.setVisibility(View.GONE);
+                            c8.setVisibility(View.GONE);
+                            c9.setVisibility(View.GONE);
+                            c10.setVisibility(View.GONE);
+
+
+                        }
+
+                    }
+                }
+            });
+
+        }
+    });
             Atras.setOnClickListener(new View.OnClickListener() {
 
                 public void onClick(View view) {
